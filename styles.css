@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    font-family: philosopher;
+    font-size: 50px;
+}
+
+.link{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.link a{
+    margin-right: 170px;
+    color: black;
+    font-family: 'montserrat alternates';
+    font-weight: bolder;
+}
+
+/* Main background */
+.main-background{
+    background-image: url("/images/skyblue.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.main-idea{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+/* Portfolio */
+.portfolio {
+    text-align: center;
+    font-size: 20px;
+    font-family: Yaldevi;
+}
+
+
+
+/* Caption */
+.caption img{
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+.caption{
+    background-color: rgb(240, 240, 240);
+    height: 72px;
+}
+
+/* Team Member Section */
+.team-member h2{
+    text-align: center;
+    font-size: 35px;
+}
+.team-image img{
+    height: 290px;
+    width: 250px;
+    
+}
+
+.images figure{
+    display: inline-flex;
+    align-items: center;
+}
+
+figcaption{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+img{
+    width: 200px;
+    height: 150px;
+    border: solid 1px black;
+}
+.team-image {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("/images/team-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+}
+.team-image figcaption{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
